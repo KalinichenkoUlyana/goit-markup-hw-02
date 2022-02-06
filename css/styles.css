@@ -1,0 +1,70 @@
+/*Цtкт акцент-#2196F3;
+цвет заголовков-#212121;
+цвет основного текста -#757575;
+фон героя-#2F303A
+белый фон- #FFFFFF;
+цвет-телефон почта-rgba(255, 255, 255, 0.6);
+*/
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --main-background-color: #ffffff;
+}
+body {
+  font-family: Roboto, sans-serif;
+
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+/*---Header---*/
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  background-color: var(--main-background-color);
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+.logo-accent {
+  color: var(--accent-color);
+}
+.site-nav-item {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  background-color: inherit;
+  color: var(--title-text-color);
+}
+.site-nav-item:hover,
+.site-nav-item:focus {
+  color: var(--accent-color);
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.current {
+  color: var(--accent-color);
+}
+.contacts {
+  font-family: inherit;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  background-color: inherit;
+  color: var(--primary-text-color);
+}
+.contacts:hover,
+.contacts:focus {
+  color: var(--accent-color);
+}
